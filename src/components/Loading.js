@@ -1,7 +1,12 @@
+import React, {Fragment} from "react";
+
 const Loading =()=>{
 
     return (
-        <div>Hello from Loading</div>
+        <Fragment>
+            <h4><i>🕸</i></h4>
+            <h5>Loading ...</h5>
+        </Fragment>
     );
 }
 
