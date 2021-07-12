@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/thesergioliveira/countries-api.git/static/css/main.d7dec0e1.chunk.css",
+    "main.js": "/thesergioliveira/countries-api.git/static/js/main.cb3f4c70.chunk.js",
+    "main.js.map": "/thesergioliveira/countries-api.git/static/js/main.cb3f4c70.chunk.js.map",
+    "runtime-main.js": "/thesergioliveira/countries-api.git/static/js/runtime-main.ac723701.js",
+    "runtime-main.js.map": "/thesergioliveira/countries-api.git/static/js/runtime-main.ac723701.js.map",
+    "static/js/2.68fbb7be.chunk.js": "/thesergioliveira/countries-api.git/static/js/2.68fbb7be.chunk.js",
+    "static/js/2.68fbb7be.chunk.js.map": "/thesergioliveira/countries-api.git/static/js/2.68fbb7be.chunk.js.map",
+    "index.html": "/thesergioliveira/countries-api.git/index.html",
+    "static/css/main.d7dec0e1.chunk.css.map": "/thesergioliveira/countries-api.git/static/css/main.d7dec0e1.chunk.css.map",
+    "static/js/2.68fbb7be.chunk.js.LICENSE.txt": "/thesergioliveira/countries-api.git/static/js/2.68fbb7be.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac723701.js",
+    "static/js/2.68fbb7be.chunk.js",
+    "static/css/main.d7dec0e1.chunk.css",
+    "static/js/main.cb3f4c70.chunk.js"
+  ]
+}
