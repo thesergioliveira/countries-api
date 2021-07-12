@@ -11,10 +11,10 @@ const Country = ({ results, getCountry }) => {
         </div>
         <img src={flag} alt={name} />
         <div className="container-footer">
-          <p>
+          <p className="border">
             Borders:{" "}
             {borders.map((border, i) => (
-              <i key={i} onclick={() => getCountry("name", border)}>
+              <i key={i} onClick={() => getCountry("name", border)}>
                 &nbsp; {border}
               </i>
             ))}{" "}

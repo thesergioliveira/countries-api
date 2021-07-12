@@ -14,5 +14,12 @@ form {
     color: $button-primary-color;
     border: none;
     border-radius: 10px;
+
+    &:hover {
+      cursor: pointer;
+    }
+    &:active {
+      background-color: $active-secundary-color;
+    }
   }
 }
