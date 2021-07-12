@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 const Country = ({ results, getCountry }) => {
   const lands = results.map((result, i) => {
-    let { name, area, capital, flag, population } = result;
+    let { name, area, capital, flag, population, borders } = result;
     return (
       <div key={i} className="country-container">
         <div class="container-header">
@@ -11,6 +11,14 @@ const Country = ({ results, getCountry }) => {
         </div>
         <img src={flag} alt={name} />
         <div className="container-footer">
+          <p>
+            Borders:{" "}
+            {borders.map((border, i) => (
+              <i key={i} onclick={() => getCountry("name", border)}>
+                &nbsp; {border}
+              </i>
+            ))}{" "}
+          </p>
           <span>Area: {area}</span> <span>Population: {population}</span>
         </div>
       </div>

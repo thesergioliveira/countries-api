@@ -40,11 +40,14 @@ function App() {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          // value={userInput}
+          className="user-input"
+          value={userInput}
           onChange={handleChange}
           placeholder="Write a country name"
         ></input>
-        <button type="submit">Search</button>
+        <button className="search-button" type="submit">
+          Search
+        </button>
       </form>
       <Country results={results} getCountry={getCountry} />
     </Fragment>
