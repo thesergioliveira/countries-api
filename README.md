@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="public/images/img-01.png" alt="Logo" width="200" height=200">
+    <img src="public/images/img-01.png" alt="Logo" width="300" height=300">
   </a>
 
   <h3 align="center">countries API</h3>
